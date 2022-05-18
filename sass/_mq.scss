@@ -1,0 +1,27 @@
+@media screen and (max-width: 966px) {
+    h2 {
+        padding: 2em;
+        margin: 5em;
+    }
+    
+
+    .row {
+        display: block;
+    }
+    
+    .footer-content {
+        display: block;
+    }
+    
+    .col-logo,
+    .col-form {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .form-container {
+        margin:2em auto;
+    }
+    
+    
+}
