@@ -6,6 +6,10 @@ main {
 }
 
 // flex tuning
+.container {
+    width: 80%;
+    max-width: 1100px;
+}
 
 .row {
     display: flex;
@@ -15,12 +19,11 @@ main {
 }
 
 .col-logo {
-    flex: 0 0 50;
-    text-align: left;
+    width: 55%;
 }
 
 .col-form {
-    flex: 0 0 40%;
+    width: 42%;
     text-align: center;
 }
 
@@ -32,4 +35,89 @@ main {
     line-height: 32px;
 }
 
+// form
 
+.form-container {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 1.2em;
+    margin-top: 5em;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input, 
+.form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.form-container input {
+    border: 1px solid #dddfe2;
+    border-radius: .3em;
+    color: #1d2129;
+    padding: 1.2em;
+    margin-bottom: .5em;
+    outline: none;
+}
+
+.form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+// buttons
+.btn {
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    font-weight: 700;
+}
+
+.btn-login {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.btn-new {
+    font-size: 1em;
+    background-color: #42b72a;
+    color: #ffffff;
+    margin-top: 1.2em;
+    padding: .75em;
+}
+
+// links
+
+.form-container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+
+.col-form p {
+    font-size: 14px;
+}
+
+.col-form  a {
+    text-decoration: none;
+    color: #1c1e21;
+}
+
+.col-form a:hover {
+    text-decoration: underline;
+}
