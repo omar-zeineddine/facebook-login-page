@@ -1,0 +1,35 @@
+main {
+    height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+// flex tuning
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col-logo {
+    flex: 0 0 50;
+    text-align: left;
+}
+
+.col-form {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.col-logo h2 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+
